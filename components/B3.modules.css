@@ -1,0 +1,16 @@
+.container .int  {
+   width: 200px;
+   height: 30px;
+    border-radius: 4px;
+}
+
+.contain {
+    display: flex;
+}
+.btn {
+    width: 170px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 7px;
+    border:1 solid transparent;
+}

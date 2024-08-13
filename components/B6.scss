@@ -1,0 +1,120 @@
+.navigation {
+    background-color: #2d58ff;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        height: 40px;
+      }
+    }
+  
+    .nav-links {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      li {
+        margin: 0 1rem;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+  
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+          }
+        }
+      }
+    }
+  
+    .account {
+      display: flex;
+      align-items: center;
+  
+      .account-icon {
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        svg {
+          fill: #2d58ff;
+          height: 24px;
+          width: 24px;
+        }
+      }
+    }
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2d58ff;
+  
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        height: 40px;
+      }
+    }
+  
+    .nav-menu {
+      display: flex;
+      align-items: center;
+  
+      li {
+        list-style: none;
+        margin: 0 1.5rem;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #ddd;
+          }
+        }
+      }
+    }
+  
+    .account-section {
+      display: flex;
+      align-items: center;
+  
+      .account-icon {
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: #2d58ff;
+        }
+      }
+    }
+  }
+  
