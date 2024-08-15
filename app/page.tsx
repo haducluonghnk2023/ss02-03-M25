@@ -11,7 +11,9 @@ import B7 from "@/components/B7";
 import B8 from "@/components/B8";
 import B9 from "@/components/B9";
 import B10 from "@/components/B10";
+import B11 from "@/components/B11";
 export default function page() {
+  const options = ["HTML", "CSS", "JavaScript", "NextJS"];
   return (
     <div>
       {/* <Header />
@@ -26,6 +28,7 @@ export default function page() {
       <B8 />
       <B9 />
       <B10 />
+      <B11 options={options} />
     </div>
   );
 }

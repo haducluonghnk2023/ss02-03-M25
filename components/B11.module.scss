@@ -1,0 +1,67 @@
+.selectContainer {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+  
+    label {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+  
+    .selectBox {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      background-color: #fff;
+  
+      .selectedOption {
+        margin-right: 1rem;
+      }
+  
+      .arrow {
+        transition: transform 0.3s ease;
+      }
+  
+      .arrow.open {
+        transform: rotate(180deg);
+      }
+    }
+  
+    .optionsList {
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      max-height: 150px;
+      overflow-y: auto;
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+  
+      .option {
+        padding: 0.5rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+  
+        &:hover {
+          background-color: #f0f0f0;
+        }
+  
+        &.selected {
+          background-color: #e6f7ff;
+          font-weight: bold;
+        }
+  
+        .checkmark {
+          color: #2d58ff;
+        }
+      }
+    }
+  }
+  
